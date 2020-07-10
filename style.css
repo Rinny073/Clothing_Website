@@ -1,0 +1,201 @@
+body
+{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+.navbar
+{
+	background-color: black;
+	/*position: fixed;*/
+	width:100%;
+}
+h2
+{
+	color:white;
+	margin-left: 60px;
+}
+.anchor-style
+{
+	color:white;
+	margin:0px;
+	/*border-color: orange; */
+}
+.anchor-style:hover
+{
+	color:purple;
+	border-bottom:2px solid purple; 
+}
+.container1
+{
+	background: url("img/cloth2.jpg")no-repeat center center fixed;
+	background-size: cover;
+	opacity: 0.9;
+	height:83vh;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.centered>h1
+{
+	color:#FFFBFE;
+	font-size: 4em;
+}
+.centered>h4
+{
+	color:#FFFBFE;
+}
+.tagline
+{
+	background-color: black;
+	padding:12px;
+	font-family:  'Tangerine', serif;
+	color:#FFFBFE;
+}
+.head
+{
+	color:white;
+}
+.product-style
+{
+   float:right; 
+}
+.nav-style
+{
+	font-family: 'Caveat';
+	font-size: 2rem;
+}
+.nav-style>h2
+{
+	color: white;
+}
+.nav-style>h4
+{
+	color: white;
+}
+.grid-system
+{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 1fr;
+}
+.grid1
+{
+	margin:20px;
+	/*border:1px solid purple;*/
+	box-shadow: 3px 2px 2px 3px #ccc;
+}
+.grid1:hover
+{
+	transform: rotate(-3deg);
+    transition: all 1s;
+}
+img
+{
+	height:30vh;
+	width:100%;
+	background-size: cover;
+}
+.row-style
+{
+  margin:20px;
+}
+.price-style
+{
+	margin-left:auto;
+	padding-right:30px;
+}
+.grid1>p
+{
+	padding-left: 35px;
+}
+.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+.colors>h5
+{
+	color:purple;
+}
+.colors1
+{
+	color:#8F4675;
+}
+.about-nav-style>h2
+{
+	margin:20px 20px 10px 20px;
+	color:black;
+	font-family: 'Nunito';
+}
+.about-row-style
+{
+	margin:70px;
+}
+.about-col1-style
+{
+	font-family: 'Nunito';
+	font-size: 1rem;
+}
+.about-col1-style>h2
+{
+	font-size: 20px;
+	color:black;
+	margin-left:0;
+	padding:10px 10px 10px 0px;
+}
+.button-style
+{
+	background-color:purple;
+	color:white;
+	border-color: purple;
+}
+.button-style:hover
+{
+	background-color:black;
+	color:white;
+	border-color: purple;
+}
+.col2-img-style
+{
+	height:40vh;
+	width:90%;
+	margin:20px;
+}
+.jumbotron
+{
+	margin:22px;
+	padding:10px;
+}
+.about-jumbotron-style>h5
+{
+   color:purple;
+   font-family: 'Nunito';
+}
+.button-style2
+{
+   margin-left:auto;
+   margin-bottom:10px;
+	background-color:purple;
+	color:white;
+	border-color: purple;
+}
+.button-style2:hover
+{
+	background-color:black;
+	color:white;
+	border-color: purple;
+}
+.div-style>p
+{
+	margin-top:5px;
+}
+.p-style
+{
+   color:purple;
+   font-family: 'Nunito';
+}
